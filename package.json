@@ -1,0 +1,12 @@
+{
+  "name": "claude-desktop-system-prompts",
+  "private": true,
+  "type": "module",
+  "description": "Static extraction of model-facing prompts from the Claude Desktop app bundle",
+  "scripts": {
+    "extract": "node scripts/extract_prompts.mjs"
+  },
+  "dependencies": {
+    "@babel/parser": "8.0.4"
+  }
+}

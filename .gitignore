@@ -1,0 +1,5 @@
+node_modules/
+app/
+*.asar
+prompts.json
+.DS_Store
